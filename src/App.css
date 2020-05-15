@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .TwirlyPig {
   transition: all 3s ease-in-out;
   display: inline;
@@ -74,7 +78,7 @@ ul {
 
 
 .pigTile {
-  display: inline;
+  /* display: inline; */
   background-repeat: no-repeat;
   background-position: center 90%;
   float: left;
